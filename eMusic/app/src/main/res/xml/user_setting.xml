@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Preference
+        app:key="run_settings"
+        app:title="Settings">
+        <intent
+            android:targetPackage="com.example.emusic"
+            android:targetClass="Settings"/>
+</Preference>
+    <Preference
+        app:key="run_about"
+        app:title="About this app">
+    </Preference>
+</PreferenceScreen>
